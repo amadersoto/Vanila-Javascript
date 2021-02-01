@@ -1,13 +1,17 @@
-let arr = [1, 2, 3]
+let arr = [1, 2, 3] // in array
 let a = arr[Symbol.iterator]()
 
-for (let v of arr) {
+for (let v of a) {
   console.log(v)
 }
+
+// in string
 
 for (let v of 'selim') {
   console.log(v)
 }
+
+// in object
 
 let obj = {
   a: 10,
