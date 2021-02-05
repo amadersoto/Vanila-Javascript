@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <form action="" id="form">
+      <h1>Hello-Form</h1>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="selim">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="selim@gmail.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" name="password" placeholder="selim">
+      </div>
+
+      <div class="select">
+        <lebel for="select">Select your Country</lebel>
+        <select class="form-select" aria-label="Default select example">
+          <option value="1" selected>Bangladesh</option>
+          <option value="2">India</option>
+          <option value="3">Pakistan</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-success mt-3" id="btn">Submit</button>
+    </form>
+  </div>
+
+  <script src="form.js"></script>
+</body>
+
+</html>
